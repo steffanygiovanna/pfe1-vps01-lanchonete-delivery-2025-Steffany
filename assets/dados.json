@@ -9,7 +9,8 @@
             "Alface",
             "Tomate"
         ],
-        "preco": 15.00
+        "preco": 15.00,
+         "imagem": "./assets/hamburguer.pmg"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
             "Bacon",
             "Alface",
             "Tomate"
-        ]
+        ],
+        "preco": 35.00
     },
     {
         "id": 3,
@@ -34,7 +36,8 @@
             "Tomate",
             "Cebola"
         ],
-        "preco": 20.00
+        "preco": 20.00,
+         "imagem": ""
     },
     {
         "id": 4,
@@ -47,7 +50,8 @@
             "Alface",
             "Tomate"
         ],
-        "preco": 25.00
+        "preco": 25.00,
+         "imagem": ""
     },
     {
         "id": 5,
@@ -61,7 +65,9 @@
             "Tomate",
             "Ovo"
         ],
-        "preco": 30.00
+        "preco": 30.00,
+        "imagem": ""
+        
     },
     {
         "id": 6,
@@ -76,6 +82,7 @@
             "Ovo",
             "Cebola"
         ],
-        "preco": 35.00
+        "preco": 35.00,
+         "imagem": ""
     }
 ]

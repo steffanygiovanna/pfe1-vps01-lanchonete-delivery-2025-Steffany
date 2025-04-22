@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Bell Delivery </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lanchonete Delivery</h1>
+    </header>
+
+    <section id="cadastro">
+        <h2>Cadastrar Pedido</h2>
+        <form id="formPedido">
+            <label for="cliente">Nome do Cliente:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Digite o seu nome" required>
+
+
+            <label for="Endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço" required>
+
+            <label for="produto">Produto:</label>
+            <select id="produto" required>
+                <option value="Hamburguer">Hamburguer</option>
+                <option value="X-Burguer">X-Burguer</option>
+                <option value="X-Bacon">X-Bacon</option>
+                <option value="X-Salada">X-Salada</option>
+                <option value="X-Egg">X-Egg</option>
+                <option value="X-Tudo">X-Tudo</option>
+                <option value="Refrigerante">Refrigerante</option>
+            </select>
+
+            <button type="submit">Cadastrar Pedido</button>
+        </form>
+    </section>
+
+    <section id="pedidosExecucao">
+        <h2>Pedidos em Execução</h2>
+        <div id="listPedidosExecucao" class="pedido-lista"></div>
+    </section>
+
+    <section id="pedidosEntrega">
+        <h2>Pedidos em Entrega</h2>
+        <div id="listPedidosEntrega" class="pedido-lista"></div>
+    </section>
+
+    <section id="pedidosFinalizados">
+        <h2>Pedidos Finalizados</h2>
+        <button id="mostrarConcluidos">Ver Pedidos Finalizados</button>
+        <div id="listPedidosFinalizados" class="pedido-lista"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
